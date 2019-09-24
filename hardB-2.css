@@ -1,0 +1,85 @@
+body{
+    margin: auto;
+    max-width: 1200px;
+    height: 100vh;
+    display: flex;
+}
+aside{
+    width: 20%;
+    height: 100%;
+    background-color: grey;
+}
+.asidetop{
+    height: 20%;
+    background-color: rgb(79, 76, 134);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.foto{
+    margin:0;
+    padding: 0px 10px;
+    font-size: 70px;
+}
+.asidetop-mailarrow{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.mail{
+    display: inline-block;
+    margin:0;
+    padding: 0px 10px 10px 10px;
+    color: white;
+}
+.arrow{
+    color: white;
+    cursor: pointer;
+}
+
+.asidebottom{
+    height: 80%;
+}
+.choice{
+    width: 100%;
+    height: 10%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+.choice-icon{
+    font-size: 50px;
+}
+p{
+    font-size: 18px;
+    margin:0;
+}
+main{
+    width: 80%;
+    height: 100%;
+    background-color: lightgray;
+}
+.header{
+    border-bottom: 1px groove black;
+    height: 5%;
+}
+h1{
+    padding: 0px 30px;
+}
+.bigbox{
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.boxtop{
+    width: 50%;
+    height: 20%;
+    background-color: white;
+}
+.boxbottom{
+    width: 50%;
+    height: 75%;
+    background-color: white;
+}
