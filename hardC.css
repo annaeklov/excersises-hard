@@ -41,7 +41,7 @@ hr{
     margin-top: 15px; 
 }
 h1{
-    font-size: 60px;
+    font-size: 75px;
     padding-bottom: 10px;
 }
 .header-text{
@@ -87,18 +87,103 @@ body{
 }
 
 .maincontainer{
+    padding: 30px;
     margin: auto;
     display: flex;
-    border: 1px solid black;
     width: 70%;
-    height: 500px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.smallcard-container{
+    width: 100%;
+    height: 50%;
+    display: flex;
 }
 
 .smallcard{
-    border: 1px solid black;
+    background-color: #FFF9E3;
+    box-shadow: 10px 10px 10px -14px rgba(0,0,0,0.75);
     width: 25%;
-    height: 50%;
+    height: 100%;
     margin: 5px;
+}
+.smallcard-top, .bigcard-top{
+    border-top-left-radius: 4px; 
+    border-top-right-radius: 4px; 
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 40%;
+    position: relative;
+}
+
+.smallcard-main{
+    height: 45%;
+    padding: 5px;
+}
+h3{
+    font-size: 15px;
+}
+h2{
+    font-size: 25px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+.smallcard-bottom, .bigcard-bottom{
+    border-bottom-left-radius: 4px; 
+    border-bottom-right-radius: 4px; 
+}
+i{
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.smallcard-bottom p{
+    padding-top: 5px;
+}
+.bigcard-container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.bigcard{
+    background-color: #FFF9E3;
+    box-shadow: 10px 10px 10px -14px rgba(0,0,0,0.75);
+    width: 50%;
+    height: calc(100%-5px);
+    margin: 5px;
+    margin-top: 20px;
+}
+.bigcard-bottom p{
+    color: blue;
+    display: inline;
+    padding: 5px;
+}
+.bigcard-main{
+    height: 45%;
+    padding: 5px;
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.mood{
+    font-size: 40px;
+}
+h4{
+    padding-left: 50px;
+}
+.cake{
+    font-size: 70px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-top: -35px;
+    margin-right: -35px;
+    opacity: 0.3;
 }
 
 
