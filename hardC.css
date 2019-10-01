@@ -8,20 +8,20 @@ header{
     width: 100%;
 }
 
-.header-left{
+
+.header-box {
     float: left;
     position: relative;
-    background-color: #FFFCF5;
     width: 50%;
     height: 400px;
+}
+
+.header-left{
+    background-color: #FFFCF5;
     border-top-right-radius: 200px;
 }
 .header-right{
-    float: left;
-    position: relative;
     background-color: #FEF8E0;
-    width: 50%;
-    height: 400px;
     border-bottom-left-radius: 200px;
 }
 
@@ -95,6 +95,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+    margin-bottom: 200px;
 }
 .smallcard-container{
     width: 100%;
@@ -109,6 +110,7 @@ body{
     height: 100%;
     margin: 5px;
 }
+
 .smallcard-top, .bigcard-top{
     border-top-left-radius: 4px; 
     border-top-right-radius: 4px; 
@@ -151,16 +153,18 @@ i{
     background-color: #FFF9E3;
     box-shadow: 10px 10px 10px -14px rgba(0,0,0,0.75);
     width: 50%;
-    height: calc(100%-5px);
+    height: calc(100% - 5px);
     margin: 5px;
     margin-top: 20px;
 }
-.bigcard-bottom p{
+
+.bigcard-bottom p {
     color: blue;
     display: inline;
     padding: 5px;
 }
-.bigcard-main{
+
+.bigcard-main {
     height: 45%;
     padding: 5px;
     position: relative;
@@ -185,5 +189,3 @@ h4{
     margin-right: -35px;
     opacity: 0.3;
 }
-
-
