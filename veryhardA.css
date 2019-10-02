@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+main {
+    max-width: 100vw;
+    background-image: url(https://images.unsplash.com/photo-1483909796554-bb0051ab60ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 800px;
+    height: 300px;
+}
+
+.contentleft {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.lefttop {
+    background-image: url(https://images.unsplash.com/photo-1525480122447-64809d765ec4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-position: 42% 76%;
+    width: 100%;  
+    height: 80%;  
+    position: relative;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.lefttop h3 {
+    position: absolute;
+    bottom: 15px;
+    left: 5px;
+    color: rgb(250, 241, 231);
+    font-size: 30px;
+}
+
+.leftbottom {
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.leftbottom i {
+    padding: 0px 15px;
+    font-size: 40px;
+    color: rgb(80, 47, 27);
+}
+
+.leftbottom p{
+    color: grey;
+}
+
+.contentright {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(227, 227, 227);
+    border-radius: 3px;
+}
+
+.righttop {
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    position: relative;
+}
+ .righttop i {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    margin-bottom: -40px;
+    margin-left: -40px;
+    font-size: 80px;
+    color: rgba(80, 47, 27, 0.562);
+  
+}
+
+.righttop > p {
+    font-size: 16px;
+    color: grey;
+    position: absolute;
+    bottom: 30%;
+    left: 87px;
+}
+
+.circle {
+    position: absolute;
+    top: -30px;
+    right: 15px;
+    background-color: rgba(160, 105, 4, 0.897);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+
+.circle p {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    margin-top: -15px;
+    margin-right: -8.5px;
+    color: white;
+    font-size: 30px;
+}
+
+.rightbottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+.rightbottom p {
+    color: grey;
+    padding: 10px 15px;
+}
+
+
+ 
+
